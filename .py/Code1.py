@@ -30,9 +30,12 @@ MQTT_USERNAME = "0fa09af0-1e3f-11ed-bf0a-bb4ba43bd3f6"
 MQTT_PASSWORD = "317896ff1bbcbb93c1b6454f16e5694a3916bcd4"
 MQTT_CLIENT_ID = "2795b910-1e3f-11ed-baf6-35fab7fd0ac8"
 
+# create your own API that connects to your account and spreadsheet in Google Drive
+
+# Internally use only:
 # download %APPDATA% file provided in the IoT subgroup file, copy the path of the file and paste it inside
 # the file name and remember to change '\' to '/'
-# then this program will connect to the google sheet that I posted in the IoT file
+# then this program will connects to the google sheet that I posted in the IoT file
 sa = gspread.service_account(filename = '../packages/%APPDATA%/gspread/service_account.json')
 sh = sa.open("Solar Irradiance Data")
 wks = sh.worksheet("Code1")

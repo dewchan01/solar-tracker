@@ -1,5 +1,6 @@
 # DIP Project 
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) 
+
 # Introduction
 This is a repo to store codes for *DIP* *Project: Low-Cost Solar Tracker with IoT Capabilities*. Thanks to my team and our supervising professor.
 
@@ -11,8 +12,6 @@ Besides the development of low-cost solar tracker, the project also aims to inte
 <div style="text-align: center;">
   <img src="assets/cayenne-mqtt.jpg" alt="mqtt" style="display: block; margin: 0 auto; width: 100%;">
 </div>
-
-
 
 # Approach
 I took responsibility to help build algorithm of controlling movement of solar tracker, meanwhile mostly focused on creating a dashboard to visualize and monitor as well as analyzing of the metrics in real time with our measurements to improve the performance of *PV panel*.
@@ -91,4 +90,3 @@ print(data.head())
 
 
 The solar irradiance data is provided under the [MIT License](LICENSE).
-

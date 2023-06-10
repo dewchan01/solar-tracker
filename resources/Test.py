@@ -13,6 +13,8 @@ ypos = 255
 ind = 2
 index=["color","color_name","hex","R","G","B"]
 csv = pd.read_csv('colors.csv', names=index, header=None)
+
+# create your own API that connects to your account and spreadsheet in Google Drive
 sa = gspread.service_account(filename = 'C:/Users/USER/Downloads/%APPDATA%/gspread/service_account.json')
 sh = sa.open("Solar Irradiance Data")
 wks = sh.worksheet("Sheet1")

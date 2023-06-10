@@ -34,9 +34,12 @@ maxSi = 0 #maximum daily solar irradiance
 #retrieve the captured colour rgb data values and match with colour in xlsx file 'colors' in IoT subgroup folder
 index=["color","color_name","hex","R","G","B"]
 
+# create your own API that connects to your account and spreadsheet in Google Drive
+
+# Internally use only:
 # download %APPDATA% file provided in the IoT subgroup file, copy the path of the file and paste it inside
 # the file name and remember to change '\' to '/'
-# then this program will connect to the google sheet that I posted in the IoT file
+# then this program will connects to the google sheet that I posted in the IoT file
 csv = pd.read_csv('colors.csv', names=index, header=None)
 sa = gspread.service_account(filename = 'packages/%APPDATA%/gspread/service_account.json')
 sh = sa.open("Solar Irradiance Data")
