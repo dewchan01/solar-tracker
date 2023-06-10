@@ -1,0 +1,13 @@
+https://www.solar-repository.sg/solar-irradiance-map/images/favicon.ico
+https://www.solar-repository.sg/solar-irradiance-map/vendor/bootstrap/css/bootstrap.min.css
+https://www.solar-repository.sg/solar-irradiance-map/vendor/fontawesome/css/font-awesome.min.css
+https://www.solar-repository.sg/solar-irradiance-map/vendor/animateit/animate.min.css
+https://www.solar-repository.sg/solar-irradiance-map/vendor/owlcarousel/owl.carousel.css
+https://www.solar-repository.sg/solar-irradiance-map/vendor/magnific-popup/magnific-popup.css
+https://www.solar-repository.sg/solar-irradiance-map/css/theme-base.css
+https://www.solar-repository.sg/solar-irradiance-map/css/theme-elements.css
+https://www.solar-repository.sg/solar-irradiance-map/css/responsive.css
+https://www.solar-repository.sg/solar-irradiance-map/css/color-variations/blue.css
+https://www.solar-repository.sg/solar-irradiance-maphttps://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800
+https://www.solar-repository.sg/solar-irradiance-map/css/custom.css
+https://www.solar-repository.sg/solar-irradiance-map/cookie-banner.css
